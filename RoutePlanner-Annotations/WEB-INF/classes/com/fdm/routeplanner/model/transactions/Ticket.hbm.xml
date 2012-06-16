@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.fdm.routeplanner.model.transactions.Ticket"
+		table="RPTickets">
+		<id column="ticketid" name="ticketID" type="integer">
+			<generator class="increment" />
+		</id>
+		<property column="transactionid" generated="never" lazy="false"
+			name="transactionID" />
+		<property column="startlocation" generated="never" lazy="false"
+			name="startStation" />
+		<property column="endlocation" generated="never" lazy="false"
+			name="endStation" />
+		<property column="usedate" generated="never" lazy="false"
+			name="travelDate" />
+		<property column="tickettype" generated="never" lazy="false"
+			name="ticketType" />
+		<property column="cost" name="price" />
+	</class>
+</hibernate-mapping>

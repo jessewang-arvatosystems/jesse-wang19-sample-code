@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+
+	<beans:import resource="beans/hibernate-beans.xml" />
+
+	<http pattern="/login.htm" security="none" />
+	<http pattern="/register.htm" security="none" />
+	<http pattern="/error.htm" security="none" />
+	<http pattern="/success.htm" security="none" />
+
+	<http>
+		<intercept-url pattern="/homepage.htm" 				access="ROLE_USER" />
+		<intercept-url pattern="/buyAndBuildTickets.htm" 	access="ROLE_USER" />
+		<intercept-url pattern="/showTicket.htm" 			access="ROLE_USER" />
+		<intercept-url pattern="/buyTickets.htm" 			access="ROLE_USER" />
+		<intercept-url pattern="/searchRoutes.htm" 			access="ROLE_USER" />
+		<intercept-url pattern="/printJourney.htm" 			access="ROLE_USER" />
+		<intercept-url pattern="/contact.htm" 				access="ROLE_USER" />
+		<intercept-url pattern="/ticketHistory.htm" 		access="ROLE_USER" />
+		<intercept-url pattern="/transactionHistory.htm" 	access="ROLE_USER" />
+		<intercept-url pattern="/logout.htm" 				access="ROLE_USER" />
+		<form-login login-page="/login.htm" 
+					default-target-url="/homepage.htm"
+					authentication-failure-url="/error.htm"
+					always-use-default-target="true" />
+		<logout logout-success-url="/logout.htm" />
+	</http>
+
+	<authentication-manager>
+		<authentication-provider>
+			<jdbc-user-service id="userService"
+				data-source-ref="databaseSource"
+				users-by-username-query="
+					SELECT userid, userpassword, enabled
+					FROM rpusers
+					WHERE userid=?"
+				authorities-by-username-query="
+					SELECT userid, authority
+					FROM rpusers
+					WHERE userid=?" />
+		</authentication-provider>
+	</authentication-manager>
+
+
+</beans:beans>

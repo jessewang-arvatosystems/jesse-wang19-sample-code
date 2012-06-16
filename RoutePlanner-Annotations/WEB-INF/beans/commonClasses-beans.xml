@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="fileLocationProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+		p:location = "classpath:filename.properties"
+		p:placeholderPrefix = "$file{" />
+		
+	<bean id="websiteUrlProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+		p:location = "classpath:websiteURLs.properties"
+		p:placeholderPrefix = "$url{" />
+		
+	<bean id="databaseProperties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+		p:location = "classpath:hibernate.properties"
+		p:placeholderPrefix = "$db{" />
+	
+	<bean id="hashMap" class="java.util.HashMap" scope="prototype"/>
+	<bean id="arrayList" class="java.util.ArrayList" scope="prototype"/>
+	<bean id="stringBuilder" class="java.lang.StringBuilder" scope="prototype"/>
+	<bean id="lock" class="java.util.concurrent.locks.ReentrantLock" scope="prototype">
+		<constructor-arg value = "true" />
+	</bean>
+
+</beans>
