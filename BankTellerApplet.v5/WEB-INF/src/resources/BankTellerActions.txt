@@ -1,0 +1,9 @@
+#Bank Teller Actions
+#Fri Feb 03 15:13:49 EST 2012
+ACTION_CLASS_4=WithdrawAccountAction
+ACTION_CLASS_3=DepositAccountAction
+ACTION_CLASS_2=CreateSavingsAccountAction
+ACTION_CLASS_1=CreateCurrentAccountAction
+ACTION_CLASS_7=ViewAccountAction
+ACTION_CLASS_6=CloseAccountAction
+ACTION_CLASS_5=ListAllAccountsAction
