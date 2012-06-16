@@ -1,0 +1,43 @@
+<html>
+
+<head>
+		<link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon" />
+		<title>FDM Underground</title>
+		<link rel="stylesheet" type="text/css" href="./css/underground1.css" />
+			<script language="Javascript">
+				function capLock(e){
+				 kc = e.keyCode?e.keyCode:e.which;
+				 sk = e.shiftKey?e.shiftKey:((kc == 16)?true:false);
+				 if(((kc >= 65 && kc <= 90) && !sk)||((kc >= 97 && kc <= 122) && sk))
+				  document.getElementById('passwordInfo').style.visibility = 'visible';
+				 else
+				  document.getElementById('passwordInfo').style.visibility = 'hidden';
+				}
+			</script>
+</head>
+		
+
+<body >
+	<img id="banner" src="./images/bannerj.JPG"/>
+	<br>
+	Welcome to FDM's London Underground Route Planner!
+	<br>
+	Please Login to access FDM's Proprietary LondonUnderground Network
+	<div class="loginbox">
+		<p>LOGIN</p>
+		<p>Don't have an account? <a href="register.htm">Create one</a>.</p>
+		<form class="innerLoginBox"  action="j_spring_security_check" method="POST">
+		    <p>Username:
+		    	<input id="inputfield" type="text" name="j_username" value=""/></p>
+		    <p>Password:
+		    	<input id="inputfield" type="password" name="j_password" onkeypress="capLock(event)"/></p>
+		    <p id="submit">
+		    	<span id="passwordInfo">Passwords are case sensitive.</span>
+		   		<input type="submit" name="submit" value="Login!" />
+			</p>
+		</form>
+	</div>
+</body>
+
+
+</html>

@@ -1,0 +1,48 @@
+<html>
+
+<head>
+		<link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon" />
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="./css/underground1.css" />
+		<link type="text/css" rel="stylesheet" href="./js/dhtmlgoodies_calendar/dhtmlgoodies_calendar.css?random=20120307" media="screen"></LINK>
+		<SCRIPT type="text/javascript" src="./js/dhtmlgoodies_calendar/dhtmlgoodies_calendar.js?random=20120307"></script>
+		<script type="text/javascript" src="./js/ValidateRegisterForm.js"></script>
+		
+</head>
+		
+
+<body>
+	<h1>
+		<a href="login.htm">Login</a>
+	</h1>
+	<img id="banner" src="./images/bannerj.JPG" />
+	<br>
+	Welcome to FDM's London Underground Route Planner!
+	<br>
+	<table>
+		<tr>
+			<td>
+				<img id="registerpic" src="./images/register.JPG" >
+			</td>
+			<td>
+				<div id="registerbox">
+				<p id="bold">Register new account:<p>
+				<form action="success.htm" method="POST" name="RegisterForm" onsubmit="return ValidateRegisterForm();">
+					<p> First Name: 
+						<input id="inputfield" type="text" name="first_name" />
+					<p> Last Name:
+						<input id="inputfield" type="text" name="last_name"  />
+					<p> Username:
+						<input id="inputfield" type="text" name="username" />
+					<p> Password:
+						<input id="inputfield" type="password" name="password" />
+							
+					<input id="submit" type="submit" name="submit" value="Join FDM" />
+					<br>
+				</form>	
+				</div>
+			</td>
+		</tr>
+	</table>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.fdm.routeplanner.model.transactions.Transaction"
+		table="RPTransactions">
+		<id column="transactionid" name="transactionID">
+			<generator class="increment" />
+		</id>
+		<property column="paymenttype" generated="never" lazy="false"
+			name="paymentType" />
+		<property column="totalcost" generated="never" lazy="false"
+			name="totalPrice" />
+		<property column="buydate" generated="never" lazy="false"
+			name="purchaseDate" />
+		<property column="userid" generated="never" lazy="false"
+			name="user_id"></property>
+	</class>
+</hibernate-mapping>

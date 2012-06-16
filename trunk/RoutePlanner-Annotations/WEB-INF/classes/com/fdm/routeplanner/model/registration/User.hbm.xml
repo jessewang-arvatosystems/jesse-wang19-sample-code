@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.fdm.routeplanner.model.registration.User"        table="RPUsers">
+        <id
+            name="user_id"
+            column="userid">
+        </id>
+        <property
+            name="first"
+            column="firstname"/>
+        <property
+            name="last"
+            column="lastname"/>
+        <property
+            name="password"
+            column="userpassword"/>    
+    </class>
+</hibernate-mapping>
