@@ -28,4 +28,13 @@ RoutePlanner was completed with a team of nine people including me while trainin
 ---
 ==Configurations==
 ===Change Route Map===
-The project is currently configured to store account information on an online database. To change the data storage type, open the resources/BankTellerDatabaseType.txt and remove/add the # symbol to the preferred storage type. If more than one database is selected, the last database selected will be used. If no database is selected, the program will throw an error.
+The project is configured to load the subway map of the London Underground, however this can be changed! To change to a map of your choice, you must have an xml file in this format:
+{{{
+<network>
+   <line name="some line">
+      <station>Station A</station>
+      <station>Station B</station>
+      ...
+   </line>
+</network>
+}}} 
