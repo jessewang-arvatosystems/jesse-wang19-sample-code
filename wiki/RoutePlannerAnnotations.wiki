@@ -2,12 +2,4 @@
 
 = Introduction =
 
-RoutePlannerAnnotations was completed with a team of nine people while training at the FDM Academy. 
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+RoutePlannerAnnotations was completed with a team of nine people while training at the FDM Academy. The specs of the project were to create a website that would allow a user to register/login, find the shortest route(s) between two stations and buy tickets once a route has been found.
