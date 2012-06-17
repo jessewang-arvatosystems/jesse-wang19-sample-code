@@ -14,9 +14,9 @@ BankTeller was completed by me as a project while training at the FDM Academy.
 
 ----
 ==How to run the project==
-  # Install Apache Tomcat onto your computer.
-  # Get Eclipse IDE.
-  # Download Apache Tomcat plugin for Eclipse.
+  # Install Apache Tomcat onto your computer
+  # Get Eclipse IDE
+  # Download Apache Tomcat plugin for Eclipse
   # Configure Tomcat on your Eclipse
   # Right click project, Tomcat project -> Update context definition
   # Run Tomcat
