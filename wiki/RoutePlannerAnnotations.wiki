@@ -5,6 +5,10 @@
 RoutePlannerAnnotations was completed with a team of nine people while training at the FDM Academy. 
 
 ==Project Specifications==
-  * Allow user to find the shortest route(s) between two stations
-  * The "shortest route" is the route that has the least number of stops as well as the least number of line transfers.
-  * 
+
+  * Allow user to find the shortest route(s) between two stations.
+  * The "shortest route" is the route that has the least number of stops and the least number of line transfers.
+  * The user must register an account and login before being able to use the web application.
+  * The user has the option of buying a ticket after searching a route.
+  * Allow the client to view the ticket purchase history.
+  * Log any errors that may occur on the website such as simultaneous ticket buying on the same account.
