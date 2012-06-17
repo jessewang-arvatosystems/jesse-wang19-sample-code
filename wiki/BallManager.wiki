@@ -1,0 +1,5 @@
+#summary Handles all the balls' logic such as diameter, color and position
+
+= Introduction =
+
+BallManager is the class that handles the balls' logic. It is responsible for controlling ball diameter, color and position on the Swing application.
