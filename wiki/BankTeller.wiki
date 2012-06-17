@@ -2,7 +2,7 @@
 
 = Introduction =
 
-BankTeller was completed by me (jessewang19) as a project at the FDM Academy. 
+BankTeller was completed by me as a project at the FDM Academy. 
 
 
 ==Project Specifications==
