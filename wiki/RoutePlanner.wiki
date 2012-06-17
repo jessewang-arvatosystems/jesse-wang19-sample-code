@@ -33,8 +33,6 @@ The project is configured to load the subway map of the London Underground, howe
 <network>
    <line name="some line">
       <station>Station A</station>
-      <station>Station B</station>
-      ...
    </line>
 </network>
 }}} 
