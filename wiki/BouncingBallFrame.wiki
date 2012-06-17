@@ -1,0 +1,5 @@
+#summary Draws the multi-colored balls on the Swing application.
+
+= Introduction =
+
+BoucingBallFrame the class responsible for drawing the different colored balls on the Swing application.
