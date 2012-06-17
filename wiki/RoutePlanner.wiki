@@ -2,7 +2,7 @@
 
 = Introduction =
 
-RoutePlanner was completed with a team of nine people while training at the FDM Academy. 
+RoutePlanner was completed with a team of nine people including me while training at the FDM Academy. I was responsible for wiring the classes with annotations, setting up the Spring Security, setting up Spring AOP and general code review. 
 
 ==Project Specifications==
 
