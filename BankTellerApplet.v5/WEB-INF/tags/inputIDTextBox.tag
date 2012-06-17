@@ -1,1 +1,0 @@
-<strong>Account ID: </strong><input type="text" name="ID" /><br>
