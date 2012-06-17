@@ -1,3 +1,23 @@
-#summary Also known as RoutePlannerAnnotations
+#summary RoutePlanner is a web application that allows a client to find the shortest route(s) between two stations on the London Underground.
 
-Look at wiki for RoutePlannerAnnotations.
+= Introduction =
+
+RoutePlanner was completed with a team of nine people while training at the FDM Academy. 
+
+==Project Specifications==
+
+  * Allow user to find the shortest route(s) between two stations.
+  * The "shortest route" is the route that has the least number of stops and the least number of line transfers.
+  * The user must register an account and login before being able to use the web application.
+  * The user has the option of buying a ticket after searching a route.
+  * Allow the client to view the ticket purchase history.
+  * Log any errors that may occur on the website such as simultaneous ticket buying on the same account.
+
+==How to run the project==
+  # Install Apache Tomcat onto your computer.
+  # Get Eclipse IDE.
+  # Download Apache Tomcat plugin for Eclipse.
+  # Configure Tomcat on your Eclipse
+  # Right click project, Tomcat project -> Update context definition
+  # Run Tomcat
+  # Open your browser and type localhost:8080/RoutePlanner-Annotations
