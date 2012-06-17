@@ -3,7 +3,7 @@
 
 = Introduction =
 
-BoucingBalls was completed by me while training at the FDM Academy. The goal of the project was to learn about using the Thread and Swing API.
+BouncingBalls was completed by me while training at the FDM Academy. The goal of the project was to learn about using the Thread and Swing API. Note that this program is unstable because Swing application are not thread safe. To learn more read [http://docs.oracle.com/javase/6/docs/api/javax/swing/JFrame.html JavaDocs for JFrame].
 
 ----
 ==Project Specifications==
