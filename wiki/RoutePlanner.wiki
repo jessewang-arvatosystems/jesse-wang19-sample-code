@@ -4,6 +4,7 @@
 
 RoutePlanner was completed with a team of nine people including me while training at the FDM Academy. I was responsible for wiring the classes with annotations, setting up the Spring Security, setting up Spring AOP and general code review. 
 
+----
 ==Project Specifications==
 
   * Allow user to find the shortest route(s) between two stations.
@@ -13,6 +14,7 @@ RoutePlanner was completed with a team of nine people including me while trainin
   * Allow the client to view the ticket purchase history.
   * Log any errors that may occur on the website such as simultaneous ticket buying on the same account.
 
+----
 ==How to run the project==
   # Install Apache Tomcat onto your computer.
   # Get Eclipse IDE.
