@@ -1,0 +1,9 @@
+#summary An xml file that stores the line and station information of the London Underground
+
+= Introduction =
+
+CompleteTube.xml is an xml file that stores the line and station information of the London Underground. Different lines can have the same station.
+
+= Details =
+
+The xml file is formatted as the following:
