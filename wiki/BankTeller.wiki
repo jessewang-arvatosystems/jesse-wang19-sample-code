@@ -6,11 +6,11 @@ BankTeller was completed by me as a project while training at the FDM Academy. T
 
 ----
 ==Project Specifications==
-  * Allow user to create a current(checkings)/savings account
+  * Allow user to create a current(checkings)/savings account.
   * For current accounts, a user can withdraw more than he/she has in the account, up to the overdraft limit.
   * Let the user be able to see all accounts currently in database.
   * Allow the user to close an account if and only if the account has a balance of exactly $0 with no overdraft.
-  * Log errors, such as malformed number amounts, invalid withdrawals/deposits and invalid account closing
+  * Log errors, such as malformed number amounts, invalid withdrawals/deposits and invalid account closing.
 
 ----
 ==How to run the project==
