@@ -1,3 +1,3 @@
 #summary Also known as BankTeller
 
-Look at BankTeller.
+Look at wiki for BankTeller.
