@@ -23,3 +23,9 @@ RoutePlanner was completed with a team of nine people including me while trainin
   # Right click project, Tomcat project -> Update context definition
   # Run Tomcat
   # Open your browser and type localhost:8080/RoutePlanner-Annotations
+
+
+---
+==Configurations==
+===Change Route Map===
+The project is currently configured to store account information on an online database. To change the data storage type, open the resources/BankTellerDatabaseType.txt and remove/add the # symbol to the preferred storage type. If more than one database is selected, the last database selected will be used. If no database is selected, the program will throw an error.
