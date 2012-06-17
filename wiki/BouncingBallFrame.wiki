@@ -2,4 +2,4 @@
 
 = Introduction =
 
-BoucingBallFrame the class responsible for drawing the different colored balls on the Swing application.
+BouncingBallFrame the class responsible for drawing the different colored balls on the Swing application.
