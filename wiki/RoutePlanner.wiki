@@ -16,9 +16,9 @@ RoutePlanner was completed with a team of nine people including me while trainin
 
 ----
 ==How to run the project==
-  # Install Apache Tomcat onto your computer.
-  # Get Eclipse IDE.
-  # Download Apache Tomcat plugin for Eclipse.
+  # Install Apache Tomcat onto your computer
+  # Get Eclipse IDE
+  # Download Apache Tomcat plugin for Eclipse
   # Configure Tomcat on your Eclipse
   # Right click project, Tomcat project -> Update context definition
   # Run Tomcat
