@@ -1,0 +1,12 @@
+#summary BankTeller is a web application that allows a client to withdraw and deposit money from an account
+
+= Introduction =
+
+BankTeller was completed by me (jessewang19) as a project at the FDM Academy. 
+
+==Project Specifications==
+  * Allow user to create a current(checkings)/savings account
+  * For current accounts, a user can withdraw more than he/she has in the account, up to the overdraft limit.
+  * Let the user be able to see all accounts currently in database.
+  * Allow the user to close an account if and only if the account has a balance of exactly $0.
+  * Log errors, such as malformed number amounts, invalid withdrawals/deposits and invalid account closing
