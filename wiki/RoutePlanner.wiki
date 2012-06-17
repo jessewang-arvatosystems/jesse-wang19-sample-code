@@ -25,7 +25,7 @@ RoutePlanner was completed with a team of nine people including me while trainin
   # Open your browser and type localhost:8080/RoutePlanner-Annotations
 
 
----
+----
 ==Configurations==
 ===Change Route Map===
 The project is configured to load the subway map of the London Underground, however this can be changed! To change to a map of your choice, you must have an xml file in this format:
@@ -40,7 +40,7 @@ The project is configured to load the subway map of the London Underground, howe
 Next put the xml file in the WEB-INF/src folder.
 After that in filename.properties change the file name of CompleteTube.xml to your xml file.
 
----
+----
 ===Change Zone Data===
 Zones determine the pricing of the tickets. A station with a lower zone has a higher ticket price and vice-versa. To determine the price in a route, the station with the lowest zone is used. To change to a zone data map of your choice, you must have a dat file in this format:
 {{{
