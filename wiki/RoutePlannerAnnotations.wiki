@@ -20,4 +20,4 @@ RoutePlannerAnnotations was completed with a team of nine people while training 
   # Configure Tomcat on your Eclipse
   # Right click project, Tomcat project -> Update context definition
   # Run Tomcat
-  # Open your browser and type localhost:8080/RoutePlannerAnnotations
+  # Open your browser and type localhost:8080/RoutePlanner-Annotations
