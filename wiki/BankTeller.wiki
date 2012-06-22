@@ -22,7 +22,7 @@ BankTeller was completed by me as a project while training at the FDM Academy. T
   # Configure Tomcat on your Eclipse
   # Right click project, Tomcat project -> Update context definition
   # Run Tomcat
-  # Open your browser and type localhost:8080/BankTellerApplet.v5/webpages
+  # Open your browser and type localhost:8080/BankTeller/webpages
 
 ----
 ==Configurations==
