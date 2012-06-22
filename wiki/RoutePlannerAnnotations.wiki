@@ -1,3 +1,0 @@
-#summary Also known as RoutePlanner
-
-See wiki for RoutePlanner. The annotations part was added because older versions of this project did not use Spring annotations.
