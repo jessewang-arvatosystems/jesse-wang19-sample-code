@@ -22,7 +22,7 @@ RoutePlanner was completed with a team of nine people including me while trainin
   # Configure Tomcat on your Eclipse
   # Right click project, Tomcat project -> Update context definition
   # Run Tomcat
-  # Open your browser and type localhost:8080/RoutePlanner-Annotations
+  # Open your browser and type localhost:8080/RoutePlanner
 
 
 ----
